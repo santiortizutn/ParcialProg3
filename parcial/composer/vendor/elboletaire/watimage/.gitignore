@@ -1,0 +1,9 @@
+# Composer
+/vendor/
+composer.lock
+
+# Tests and examples
+/tests/visual/results/
+/examples/output/
+/build/
+

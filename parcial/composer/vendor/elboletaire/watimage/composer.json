@@ -1,0 +1,33 @@
+{
+    "name": "elboletaire/watimage",
+    "description": "Watermark and Image PHP class",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Òscar Casajuana",
+            "email": "elboletaire@underave.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elboletaire\\Watimage\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Elboletaire\\Watimage\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "suggest": {
+        "thephpleague/color-extractor": "Extract colors from an image like a human would do."
+    }
+}

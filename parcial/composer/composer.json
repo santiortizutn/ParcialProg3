@@ -1,0 +1,13 @@
+{
+    "name": "santyort/parcial",
+    "authors": [
+        {
+            "name": "santiago ortiz",
+            "email": "santyno09@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2",
+        "elboletaire/watimage": "~2.0.0"
+    }
+}
