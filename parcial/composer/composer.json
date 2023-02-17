@@ -7,7 +7,7 @@
         }
     ],
     "require": {
-        "firebase/php-jwt": "^5.2",
+        "firebase/php-jwt": "^6.0",
         "elboletaire/watimage": "~2.0.0"
     }
 }
